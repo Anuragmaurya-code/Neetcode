@@ -2,7 +2,6 @@ class Solution:
     def isPalindrome(self, s: str) -> bool:
         s=s.lower()
         newS=""
-        print(ord("9"))
         for c in s:
             if 97<=ord(c)<=122 or 48<=ord(c)<=57:
                 newS+=c
