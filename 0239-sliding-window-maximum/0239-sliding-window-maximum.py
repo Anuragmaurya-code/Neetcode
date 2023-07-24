@@ -9,7 +9,7 @@ class Solution:
                 q.pop()
             q.append(r)
             
-            if l>q[0]: # poping our of bound value
+            if l>q[0]: # poping out of bound value
                 q.popleft()
                 
             if (r+1)>=k:
